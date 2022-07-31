@@ -29,6 +29,7 @@ body {
 }
 
 .grid {
-    flex: 1 0 25%;
+    flex-grow: 1;
+    flex-shrink: 0;
     transition: 0.5s;
 }

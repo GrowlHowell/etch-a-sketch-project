@@ -8,9 +8,10 @@ const randomColor = function() {
 }
 
 let gridSize = function(size) {
-    for (i = 0; i < size; i++) {
+    for (i = 0; i < (size * size); i++) {
         div = document.createElement('div');
         div.classList.add('grid');
+        div.style.cssText = 'flex-basis: ' + (100 / size) + '%;';
         container.appendChild(div);
     }
 }
