@@ -15,8 +15,5 @@ body {
 
 .grid {
     flex: 1 0 25%;
-}
-
-.grid-hover {
-    background: #ddd;
+    transition: 0.5s;
 }
